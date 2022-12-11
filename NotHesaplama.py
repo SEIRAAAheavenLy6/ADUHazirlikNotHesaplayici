@@ -7,10 +7,10 @@ q4 = input('4. Quiz Schreiben: ')
 q5 = input('5. Quiz Sprechen: ')
 v1 = input('Vize 1: ')
 v2 = input('Vize 2: ')
-ortalamaquiz=(float(q1)*2)+(float(q2)*2)+(float(q3*2)/12)
-ortalamavize=(float(q1)*9)+(float(q2)*9)/18
-notoquiz = ortalamaquiz / 12
+ortalamaquiz=(float(q1)*2)+(float(q2)*2)+(float(q3)*2)+(float(q4)*2)+(float(q5)*2)/10
+ortalamavize=(float(q1)*9)+(float(q2)*9)/9
+notoquiz = ortalamaquiz / 10
 notovize = ortalamavize / 18
-print("Quiz Ortalamaniz : ",ortalamaquiz / 12)
-print("Vize Ortalamaniz : ",ortalamavize / 18)
+print("Quiz Ortalamaniz : ",ortalamaquiz / 10)
+print("Vize Ortalamaniz : ",ortalamavize / 9)
 print("Dönem Not Ortalamaniz : ",notoquiz + notovize / 2)
