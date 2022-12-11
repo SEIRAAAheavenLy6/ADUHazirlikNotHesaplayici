@@ -11,6 +11,11 @@ ortalamaquiz=(float(q1)*2)+(float(q2)*2)+(float(q3)*2)+(float(q4)*2)+(float(q5)*
 ortalamavize=(float(q1)*9)+(float(q2)*9)/9
 notoquiz = ortalamaquiz / 10
 notovize = ortalamavize / 18
+donemnotortalama = notoquiz + notovize / 2
 print("Quiz Ortalamaniz : ",ortalamaquiz / 10)
 print("Vize Ortalamaniz : ",ortalamavize / 9)
-print("Dönem Not Ortalamaniz : ",notoquiz + notovize / 2)
+print("Dönem Not Ortalamaniz : ",donemnotortalama)
+if(donemnotortalama<70):
+    print("Kaldiniz")
+else:
+    print("Gectiniz")
